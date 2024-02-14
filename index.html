@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Meet</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="ScIc.webp">
+    <script src="https://kit.fontawesome.com/618069c0a3.js" crossorigin="anonymous" defer></script>
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <nav>
+        <div>
+            <i class="fa-solid fa-bars"></i>
+            <div>
+                <img src="meet.png" alt="">
+                <h3>Meet</h3>
+            </div>
+        </div>
+        <ul>
+            <div>
+                <li>
+                    <span id="currentTime"></span>
+                </li>
+                <li>
+                    <i class="fa-regular fa-circle-question"></i>
+                </li>
+                <li>
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                </li>
+                <li>
+                    <i class="fa-solid fa-gear"></i>
+                </li>
+            </div>
+            <div>
+                <li>
+                    <i class="fa-solid fa-table-cells"></i>
+                </li>
+                <li>
+                    <i class="fa-solid fa-user"></i>
+                </li>
+            </div>
+        </ul>
+    </nav>
+    <section>
+        <h1>La visioconférence haute <br>qualité, maintenant disponible <br>pour tous</h1>
+        <p>Nous avons adapté Google Meet, notre service de visioconférence
+            <br>professionnel sécurisé, afin de le rendre disponible pour tous.
+        </p>
+        <div>
+            <button class="sec_butt"><i class="fa-solid fa-video"></i> Nouvelle reunion</button>
+            <input type="text" placeholder="&#x2328 Saisir un code ou un lien">
+            <h3>Participer</h3>
+        </div>
+    </section>
+    <hr style="margin: auto; width: 70%;">
+    <div class="body_div1">
+        <button onclick="prev()" class="div_butt"><i class="fa-solid fa-angle-left"></i></button>
+        <div class="body_div2">
+            <div class="body_div3">
+                <img class="div_img" src="https://www.gstatic.com/meet/user_edu_get_a_link_light_90698cd7b4ca04d3005c962a3756c42d.svg">
+            </div>
+            <div class="body_div3">
+                <img class="div_img" src="https://www.gstatic.com/meet/user_edu_scheduling_light_b352efa017e4f8f1ffda43e847820322.svg"><br><br>
+                <h2 class="ynq40e jF89Sb">Planifier et anticiper</h2>
+                <h5> Cliquer sur <strong>Nouvelle reunion</strong> pour planifier des réunions dans Google&nbsp;Agenda et envoyer des invitations aux participants</h5>
+            </div>
+            <div class="body_div3">
+                <img class="div_img" src="https://www.gstatic.com/meet/user_edu_safety_light_e04a2bbb449524ef7e49ea36d5f25b65.svg"><br><br>
+                <h2>Votre réunion est sécurisée</h2>
+                <h5>Personne ne peut rejoindre une réunion sans y avoir été invité ou admis par l'organisateur</h5>
+            </div>
+        </div>
+        <button onclick="next()" class="div_butt"><i class="fa-solid fa-angle-right"></i></button>
+    </div>
+    <footer><a href="https://support.google.com/meet/?hl=fr#topic=14074839" target="_blank">
+            En savoir plus</a> sur Google Meet</footer>
+</body>
+
+</html>

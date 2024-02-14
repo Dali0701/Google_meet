@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+body{
+  height: 106vh;
+}
+nav{
+  display: flex;
+  padding: 15px;
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.548);
+  justify-content: space-between;
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+i:hover{
+   background-color: rgba(0, 0, 0, 0.123);
+   border-radius: 50%; 
+   padding: 10px;
+}
+nav>div{
+  display: flex;
+  gap:20px;
+}
+nav>div>div{
+  display: flex;
+}
+h3{
+  font-family:"Google Sans Display",Roboto,Arial,sans-serif;
+  font-weight: 500;
+  padding-top: 6px;
+}
+nav>div>i{
+  padding-top: 10px;
+}
+nav>ul>div{
+  display: flex;
+  gap:20px;
+}
+h1{
+  font-family:"Google Sans Display",Roboto,Arial,sans-serif;
+  color: rgba(0, 0, 0, 0.822);
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+p{
+  font-family:"Google Sans Display",Roboto,Arial,sans-serif;
+  color: rgba(0, 0, 0, 0.822);
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 20px;
+}
+section{
+  padding: 30px;
+}
+section>div{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+.sec_butt{
+  border-color: #448dfc;
+  border-radius: 5px;
+  background-color: #448dfc ;
+  font-size: 1.1rem;
+  color: white;
+  height: 50px;
+  width: 180px;
+  cursor: pointer;
+}
+input{
+  border-color: rgba(0, 0, 0, 0.596);
+  color: rgba(0, 0, 0, 0.548);
+  border-radius: 5px;
+  border-width: 0.5px;
+  font-size: 1rem;
+  height: 50px;
+  width: 250px;
+  padding-left:10px ;
+}
+section>div>h3{
+  padding-top: 15px;
+  color: rgba(0, 0, 0, 0.342);
+}
+.body_div1{
+   width: 30%;
+   margin: auto;
+   display: flex;
+   align-items: center;
+   position: relative;
+}
+.body_div2{
+  height: 400px;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  gap: 110px;
+}
+.body_div3{
+ padding-top: 40px;
+ padding-right: 20px;
+ font-size: 1rem;
+ font-weight: 900;
+ text-align: center;
+ color: rgba(0, 0, 0, 0.767);
+ font-family:"Google Sans Display",Roboto,Arial,sans-serif;
+}
+.div_img{
+  width: 210px;
+  height: 210px;
+}
+.div_butt{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 0px;
+  background-color: white;
+}
+footer{
+  padding-top: 100px;
+  font-family:"Google Sans Display",Roboto,Arial,sans-serif;
+}
